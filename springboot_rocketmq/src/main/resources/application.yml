@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rocketmq-demo
+apache:
+  rocketmq:
+    #Nameserver的地址
+    namesrvAddr: 47.93.247.163:9876
+    #消费者的配置
+    consumer:
+      pushConsumer: redant-consumer
+    #生产者的配置
+    producer:
+      producerGroup: redant-producer
